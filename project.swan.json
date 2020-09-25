@@ -9,7 +9,7 @@
     },
     "host": "baiduboxapp",
     "preview": {
-        "packageId": 922352
+        "packageId": 923995
     },
     "projectname": "contest",
     "setting": {
@@ -17,8 +17,8 @@
     },
     "swan": {
         "baiduboxapp": {
-            "extensionJsVersion": "1.16.2",
-            "swanJsVersion": "3.200.116"
+            "swanJsVersion": "3.200.116",
+            "extensionJsVersion": "1.16.2"
         }
     }
 }

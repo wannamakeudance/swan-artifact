@@ -15,6 +15,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@smt-ui/component": "1.1.67"
+    "@smt-ui/component": "1.1.69"
   }
 }
