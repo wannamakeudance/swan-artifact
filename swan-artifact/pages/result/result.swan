@@ -1,0 +1,25 @@
+<!-- result.swan -->
+<view class="detail-container canvas-container">
+    <canvas canvas-id="canvas">
+    </canvas>
+    <form>
+        <button type="default"
+            class="form-submit"
+            open-type="share">
+            分享
+        </button>
+        <button type="default"
+            class="form-submit default"
+            bindtap="handleSave">
+            保存
+        </button>
+        <view class="detail-docs" bindtap="redirectToSwanDemo">
+            官方示例小程序
+            <smt-icon
+                size="16px"
+                name="arrow">
+            </smt-icon>
+        </view>
+    </form>
+</view>
+

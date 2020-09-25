@@ -1,0 +1,9 @@
+{
+    "navigationStyle": "custom",
+    "onReachBottomDistance": 55,
+    "usingComponents": {
+        "card-item": "/components/card-item/card-item",
+        "smt-navigation": "@smt-ui/component/src/navigation",
+        "smt-spin": "@smt-ui/component/src/spin"
+    }
+}

@@ -1,0 +1,32 @@
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21.739rpx;
+    width: 666.667rpx;
+    height: 79.71rpx;
+    border: 1.208rpx solid #C2C5CC;
+    border-radius: 10.87rpx;
+    background: #fff;
+    font-size: 25.362rpx;
+}
+.form-item label {
+    color: #525252;
+    padding: 0 16.304rpx 0 21.739rpx;
+}
+.form-item input {
+    color: #000;
+    height: 100%;
+    font-size: 27.778rpx;
+    font-weight: bold;
+}
+.form-item-placeholder {
+    font-size: 25.362rpx;
+    color: #999;
+    font-weight: normal;
+}
+.camera-icon {
+    width: 39.855rpx;
+    height: 39.855rpx;
+    margin-right: 23.551rpx;
+}

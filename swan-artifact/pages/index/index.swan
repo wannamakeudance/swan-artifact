@@ -1,0 +1,26 @@
+<!-- index.swan -->
+<smt-navigation
+    type="switchNav"
+    commonBar="{{commonBar}}"
+    fixedBar="{{fixedBar}}">
+</smt-navigation>
+<view class="card-list">
+    <card-item
+        bindtap="handleTap"
+        s-for="item in list"
+        data-id="{{item.id}}"
+        class="card-item"
+        type="{{item.type}}"
+        title="{{item.title}}"
+        cover="{{item.cover}}"
+        author="{{item.author}}"
+        portrait="{{item.portrait}}"
+        usage="{{item.usage}}"
+        >
+    </card-item>
+    <smt-spin s-if="onBottom" 
+        smt-spin-wrap="spin" 
+        status="{{status}}"
+        bindtap="handleSpin"></smt-spin>
+</view>
+

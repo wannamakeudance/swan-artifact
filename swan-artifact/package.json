@@ -1,0 +1,20 @@
+{
+  "name": "swan-artifact",
+  "description": "表白神器",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "sh build.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jingxiangzheng@icode.baidu.com/baidu/baiduapp/swan-artifact"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@smt-ui/component": "1.1.67"
+  }
+}

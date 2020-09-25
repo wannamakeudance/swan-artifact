@@ -1,0 +1,48 @@
+.card-item-container {
+    width: 336.957rpx;
+    box-sizing: border-box;
+    position: relative;
+}
+.card-item-cover {
+    width: 100%;
+    height: 475.845rpx;
+    border-radius: 21.739rpx 21.739rpx 0 0;
+}
+.mini .card-item-cover {
+    height: 336.353rpx;
+}
+.card-item-title {
+    font-size: 28.986rpx;
+    line-height: 35.326rpx;
+    padding: 16.304rpx;
+}
+.card-item-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16.304rpx;
+}
+.card-item-info .portrait {
+    width: 25.362rpx;
+    height: 25.362rpx;
+    border-radius: 50%;
+    margin-right: 9.058rpx;
+}
+.card-item-info text {
+    color: #858585;
+    font-size: 21.739rpx;
+}
+.card-item-container:before {
+    z-index: -1;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    transform-origin: 0 0;
+    transform: scale(.5, .5);
+    border: 1px solid #ddd;
+    border-radius: 43.478rpx;
+}

@@ -1,0 +1,14 @@
+body {
+    background: #f5f5f5;
+    padding-bottom: 60.99rpx;
+}
+.canvas-container {
+    /* todo:待视觉确认，height: 2615px */
+    /* 目前2650是ok的 */
+    height: 1600.242rpx;
+}
+.canvas-container canvas {
+    width: 100%;
+    /* height为2101px */
+    height: 1268.72rpx;
+}

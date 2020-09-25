@@ -1,0 +1,39 @@
+<!-- detail.swan -->
+<view s-if="!showDocs"
+    class="detail-container">
+    <!-- 图片展示区 -->
+    <image
+        preview="true"
+        mode="{{mode}}"
+        src="{{cover}}"  class="cover"/>
+    <!-- 表单填写 -->
+    <form
+        bindsubmit="formSubmit"
+        bindreset="formReset">
+        <form-item s-for="item in formList"
+            type="{{item.type}}"
+            label="{{item.label}}"
+            placeholder="{{item.placeholder 
+            || item.limit + '个字以内哦'}}  "
+            bind:form-item-change="handleChange"
+            bind:form-upload-success="handleUploaded">
+        </form-item>
+        <button type="default"
+            class="form-submit"
+            bindtap="handleSubmit">
+            一键生成
+        </button>
+        <view class="detail-docs" bindtap="redirectToSwanDocs">
+            小程序文档平台
+            <smt-icon
+                size="16px"
+                name="arrow">
+            </smt-icon>
+        </view>
+    </form>
+</view>
+<!-- 小程序文档平台 -->
+<web-view s-else
+    src="{{swanDocsUrl}}">
+</web-view>
+

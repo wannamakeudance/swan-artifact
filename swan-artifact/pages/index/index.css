@@ -1,0 +1,24 @@
+/**
+ * @file index.css
+ * @author jingxiangzheng
+ */
+
+body {
+    height: 100%;
+    padding-bottom: 18.116rpx;
+}
+.card-list {
+    position: relative;
+    top: 362.319rpx;
+    padding: 0 30.193rpx;
+    column-count: 2;
+    column-width: 336.957rpx;
+    column-gap: 12.493rpx;
+}
+.card-item {
+    display: inline-block;
+    margin-bottom: 14.493rpx;
+}
+.spin {
+    column-span: all;
+}

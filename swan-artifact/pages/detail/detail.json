@@ -1,0 +1,7 @@
+{
+    "navigationBarTextStyle": "可口可乐",
+    "usingComponents": {
+        "form-item": "/components/form-item/form-item",
+        "smt-icon": "@smt-ui/component/src/icon"
+    }
+}

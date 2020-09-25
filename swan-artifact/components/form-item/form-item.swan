@@ -1,0 +1,14 @@
+<view class="form-item"
+    bindtap="handleUpload">
+    <label>{{label}}</label>
+    <input cursor-spacing="{{30}}"
+        disabled="{{type === 'portrait'}}"
+        placeholder="{{placeholder}}"
+        value="{= value =}"
+        placeholder-class="form-item-placeholder"
+        bindchange="handleChange"/>
+    <image s-if="{{type === 'portrait'}}"
+        src="/images/camera-icon.png"
+        class="camera-icon">
+    </image>
+</view>

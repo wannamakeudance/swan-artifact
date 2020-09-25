@@ -1,0 +1,21 @@
+<view class="card-item-container card-item-class {{type}}">
+    <image class="card-item-cover"
+        preview="false"
+        src="{{cover}}"
+        lazy-load="true"
+        mode="aspectFill"/>
+    <view class="card-item-title">
+        {{title}}
+    </view> 
+    <view class="card-item-info">
+        <view>
+            <image class="portrait"
+                src="{{portrait}}"/>
+            <text selectable="false" class="author">{{author}}</text>
+        </view>
+        <text selectable="false" class="usage">{{usage}}人已表白</text>
+    </view>
+    <view s-for="item in ['l', 'r', 't', 'b']"
+        class="border-1px border-1px-{{item}}">
+    </view>
+</view>
