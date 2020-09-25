@@ -13,7 +13,7 @@ Component({
         },
         cover: {
             type: String,
-            value: '../../images/card-cover-1.png'
+            value: ''
         },
         title: {
             type: String,
@@ -21,7 +21,7 @@ Component({
         },
         portrait: {
             type: String,
-            value: '../../images/card-cover-1.png'
+            value: ''
         },
         author: {
             type: String,

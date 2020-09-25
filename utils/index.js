@@ -30,8 +30,6 @@ export function getSystemInfo() {
 
 /**
  * upx2dpx 3倍ue图px(1242)转设备px
- * dpx: device px, 通过swan.createSelectorQuery获取的px
- * 尽量使用此方法和boundingClientRect获取的值比较，因为rpx精度更差
  *
  * @param {number} px 3倍ue图px
  * @param {number=} precision 返回精度

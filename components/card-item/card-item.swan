@@ -15,7 +15,4 @@
         </view>
         <text selectable="false" class="usage">{{usage}}人已表白</text>
     </view>
-    <view s-for="item in ['l', 'r', 't', 'b']"
-        class="border-1px border-1px-{{item}}">
-    </view>
 </view>
