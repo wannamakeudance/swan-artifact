@@ -5,8 +5,8 @@
 
 # 快速开始
 > 1. 安装百度小程序开发者工具，下载地址 https://smartprogram.baidu.com/docs/develop/devtools/history/
-> 2. 本地node 11 以上
+> 2. 本地已安装node，建议 11 以上
 
-npm i，安装项目依赖；
+项目根目录执行 npm i，安装项目依赖；
 
-项目根目录app.json等作为小程序入口文件，在开发者工具中打开
+app.json等项目根目录作为小程序入口文件，在开发者工具中打开
