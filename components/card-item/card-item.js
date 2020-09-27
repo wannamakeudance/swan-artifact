@@ -5,7 +5,7 @@
 /* eslint-disable babel/new-cap,no-undef */
 Component({
 /* eslint-enable babel/new-cap,no-undef */
-    externalClasses: ['card-item-class'],
+    externalClasses: ['card-title-class'],
     properties: {
         type: {
             type: String,

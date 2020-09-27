@@ -7,9 +7,7 @@
         mode="{{mode}}"
         src="{{cover}}"  class="cover"/>
     <!-- 表单填写 -->
-    <form
-        bindsubmit="formSubmit"
-        bindreset="formReset">
+    <form bindsubmit="handleSubmit">
         <form-item s-for="item in formList"
             type="{{item.type}}"
             label="{{item.label}}"
@@ -18,9 +16,9 @@
             bind:form-item-change="handleChange"
             bind:form-upload-success="handleUploaded">
         </form-item>
-        <button type="default"
-            class="form-submit"
-            bindtap="handleSubmit">
+        <button form-type="submit"
+            type="default"
+            class="form-submit">
             一键生成
         </button>
         <view class="detail-docs" bindtap="redirectToSwanDocs">

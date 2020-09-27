@@ -1,12 +1,13 @@
-<view class="card-item-container card-item-class {{type}}">
+<view class="card-item-container {{type}}"
+    hover-class="card-item-active">
     <image class="card-item-cover"
         preview="false"
         src="{{cover}}"
         lazy-load="true"
         mode="aspectFill"/>
-    <view class="card-item-title">
+    <view class="card-item-title card-title-class">
         {{title}}
-    </view> 
+    </view>
     <view class="card-item-info">
         <view>
             <image class="portrait"

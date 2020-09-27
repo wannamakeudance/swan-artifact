@@ -3,6 +3,9 @@
     box-sizing: border-box;
     position: relative;
 }
+.card-item-active {
+    background: #eee;
+}
 .card-item-cover {
     width: 100%;
     height: 475.845rpx;

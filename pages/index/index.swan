@@ -6,6 +6,7 @@
 </smt-navigation>
 <view class="card-list">
     <card-item
+        card-title-class="title"
         bindtap="handleTap"
         s-for="item in list"
         data-id="{{item.id}}"
@@ -18,8 +19,8 @@
         usage="{{item.usage}}"
         >
     </card-item>
-    <smt-spin s-if="onBottom" 
-        smt-spin-wrap="spin" 
+    <smt-spin s-if="onBottom"
+        smt-spin-wrap="spin"
         status="{{status}}"
         bindtap="handleSpin"></smt-spin>
 </view>
