@@ -15,12 +15,13 @@ export const shareConfig = {
 
 // swan-demo 小程序的相关配置
 export const swanDemoConfig = {
-    appKey: '4fecoAqgCIUtzIyA4FAPgoyrc4oUc25c'
+    // 因为是业务appkey，所以先不写
+    appKey: ''
 };
 // swan-docs 文档平台连接地址
 export const swanDocsUrl = 'https://smartprogram.baidu.com/docs/develop/component/formlist_input/';
 
-// 表单的两种模式
+// 表单的几种模式
 export const formModeMap = {
     mode1: [{
         type: 'name',

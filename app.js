@@ -8,7 +8,6 @@
 App({
 /* eslint-disable babel/new-cap */
     onLaunch(options) {
-        console.log('onlaunch')
         // do something when launch
     },
     onShow(options) {
