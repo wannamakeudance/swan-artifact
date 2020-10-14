@@ -16,7 +16,7 @@ export const shareConfig = {
 // swan-demo 小程序的相关配置
 export const swanDemoConfig = {
     // 因为是业务appkey，所以先不写
-    appKey: ''
+    appKey: '4fecoAqgCIUtzIyA4FAPgoyrc4oUc25c'
 };
 // swan-docs 文档平台连接地址
 export const swanDocsUrl = 'https://smartprogram.baidu.com/docs/develop/component/formlist_input/';

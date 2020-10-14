@@ -1,5 +1,5 @@
 {
-    "appid": "21422024",
+    "appid": "22800766",
     "compilation-args": {
         "common": {
             "enhance": true
@@ -9,16 +9,19 @@
     },
     "host": "baiduboxapp",
     "preview": {
-        "packageId": 927868
+        "packageId": 623635
     },
     "projectname": "contest",
+    "publish": {
+        "version": "1.0.0"
+    },
     "setting": {
         "urlCheck": false
     },
     "swan": {
         "baiduboxapp": {
-            "swanJsVersion": "3.200.116",
-            "extensionJsVersion": "1.16.2"
+            "extensionJsVersion": "1.16.2",
+            "swanJsVersion": "3.200.116"
         }
     }
 }
