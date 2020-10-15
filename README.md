@@ -2,7 +2,7 @@
 
 表白整蛊神器小程序——喜欢是放肆，爱是克制~优雅不失礼貌地与男/女神搭讪，制作属于你们的专属照片
 
-（附百度智能小程序相关教学 https://abcxueyuan.baidu.com/?_=1602504232426#/course_detail?id=15291&courseId=15291  ）
+（ 附百度智能小程序相关教学 https://abcxueyuan.baidu.com/?_=1602504232426#/course_detail?id=15291&courseId=15291  ）
 
 # 表白神器小程序二维码
 ![图片](https://b.bdstatic.com/miniapp/assets/images/artifact/xj.png)
