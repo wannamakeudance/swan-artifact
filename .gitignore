@@ -63,7 +63,7 @@ typings/
 # other stuff
 .DS_Store
 Thumbs.db
-
+.vscode-swan
 # IDE configurations
 .idea
 .vscode
